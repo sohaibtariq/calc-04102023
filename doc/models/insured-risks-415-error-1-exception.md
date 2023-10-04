@@ -1,0 +1,26 @@
+
+# Insured Risks 415 Error 1 Exception
+
+## Structure
+
+`InsuredRisks415Error1Exception`
+
+## Fields
+
+| Name | Type | Tags | Description | Getter | Setter |
+|  --- | --- | --- | --- | --- | --- |
+| `Errors` | [`List<Errors1>`](../../doc/models/errors-1.md) | Optional | - | List<Errors1> getErrors() | setErrors(List<Errors1> errors) |
+
+## Example (as JSON)
+
+```json
+{
+  "errors": [
+    {
+      "title": "title4",
+      "detail": "detail6"
+    }
+  ]
+}
+```
+
